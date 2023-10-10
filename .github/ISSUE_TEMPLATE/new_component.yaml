@@ -1,0 +1,56 @@
+name: 🎨 New Component
+description: Request a new website component.
+labels: ['component', 'triage', 'enhancement']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the component you'd like. What does it look like? What does it do? Where would you use it on the site? How do viewers interact with it? Link to examples on other websites or in other component libraries.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What type of compoent is this? Layouts structure the page, Wrappers may have some of their own content but can also contain other components, and Content displays content, and Controls provide interactivity and collect input.
+      multiple: false
+      options:
+        - Layout
+        - Wrapper
+        - Content
+        - Control
+    validations:
+      required: true
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Lofi Mockup
+      description: Provide a lofi mockup of the component, even if it's a pen-and-paper sketch.
+    validations:
+      required: false
+  - type: textarea
+    id: data
+    attributes:
+      label: Data
+      description: "Describe the input data to this component. Who provides each piece of it: hardcoded, Editors, or the API? Does the component transform it's data at all? Which default values should be used, if needed?"
+    validations:
+      required: true
+  - type: checkboxes
+    id: features
+    attributes:
+      label: Features
+      options:
+        - label: Editors can place this component in the layout.
+        - label: Editors can set custom fields for this component.
+        - label: This component pulls in data from our API.
+        - label: This component is only visible to Editors and Admins.
+        - label: Viewers can interact with this component (it's not just passively displaying content).
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/distributeaid/.github/blob/saga/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
