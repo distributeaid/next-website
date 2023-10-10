@@ -27,7 +27,7 @@ export const HeadingConfig: ComponentConfig<Props> = {
       "h3": TypeScale.SEVEN
     }[as]
 
-    return       (  
+    return (  
       <Heading as={as} size={size} align={align}>
         {title}
       </Heading>

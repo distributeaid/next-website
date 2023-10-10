@@ -1,1 +1,1 @@
-{"/":{"content":[{"type":"Heading","props":{"title":"Hello World","as":"h1","align":"center","id":"Heading-7196ec925a25ccfa09730d4089bdb7fbda54b675"}}],"root":{"title":""},"zones":{}}}
+{"/":{"content":[{"type":"Heading","props":{"title":"Hello World","as":"h1","align":"center","id":"Heading-7196ec925a25ccfa09730d4089bdb7fbda54b675"}},{"type":"Paragraph","props":{"text":"I am some text in a paragraph.","size":"4","weight":"regular","align":"left","id":"Paragraph-b6d6909972d2a99523bdbfa364037ebc8ef343c8"}}],"root":{"title":""},"zones":{}}}
