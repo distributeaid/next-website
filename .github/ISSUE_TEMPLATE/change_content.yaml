@@ -1,0 +1,52 @@
+name: 📝 Update Content
+description: Update content on the site.
+labels: ['content', 'triage']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What content would you like to see changed, and where?  Which pages and/or components are involved?
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What type of content is this?  Check all that apply.
+      multiple: false
+      options:
+        - Text
+        - Image
+        - Video
+        - Vizualization
+        - Form
+        - Table
+        - File Download
+        - Integration
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: "Please link to the public content if possible.  If not, provide an anonymized sample or mockup content here."
+    validations:
+      required: true
+  - type: checkboxes
+    id: features
+    attributes:
+      label: Features
+      options:
+        - label: Editors can set this content in custom fields for components.
+        - label: This content is pulled in from the API.
+        - label: This content is only visible to Editors and Admins.
+        - label: Viewers can interact with this content (it's not just passively displayed content).
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/distributeaid/.github/blob/saga/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
