@@ -1,1 +1,1 @@
-{"/":{"content":[{"type":"HeadingBlock","props":{"title":"Edit this page by adding /edit to the end of the URL","id":"HeadingBlock-1694032984497"}},{"type":"HeadingBlock","props":{"title":"also a heading","id":"HeadingBlock-dd418b94537c2309ffc0309ad2b33284d9808ee7"}}],"root":{"title":""},"zones":{}}}
+{"/":{"content":[{"type":"Heading","props":{"title":"Hello World","as":"h1","align":"center","id":"Heading-7196ec925a25ccfa09730d4089bdb7fbda54b675"}}],"root":{"title":""},"zones":{}}}
