@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdxeditor/editor": "^1.2.2",
     "@measured/puck": "^0.9.0",
     "@radix-ui/themes": "^2.0.0",
     "classnames": "^2.3.2",
     "next": "^13.5.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
