@@ -1,55 +1,55 @@
-name: 🖌️ Add Content
-description: Add content to the site.
-labels: ['status | triage', 'scope | content', 'type | enhancement']
+name: 🎨 Create Component
+description: Request a new component for the site.
+labels: ['status | triage', 'scope | frontend', 'type | enhancement']
 body:
   # Issue
   # ------------------------------------------------------------
   - type: markdown
     attributes:
-      value: "# Content"
+      value: "# Component"
   - type: textarea
     id: overview
     attributes:
       label: Overview
-      description: "Please summarize the change: What new content would you like to see?  What components should be used to display them?  Which pages are involved?"
-      placeholder: "I would like to see relevant photos on each Region page (link to example region page), using the Image Gallery component (link to example component usage).  It would also be cool to show videos, if the Photo Gallery can be upgraded to accomodate this."
+      description: "Please summarize the new component: What does it do? How do viewers interact with it? Where would it be used on the site?"
+      placeholder: "The Glossary Reference component highlights technical words on the site.  The words are styled like a link that, when hovered over or clicked on, shows the glossary term's definition below them. The component should be enabled automatically for every page."
     validations:
       required: true
   - type: textarea
-    id: content
+    id: mockup
     attributes:
-      label: Content
-      description: "Please provide a draft of the content or a publicly accessible link to it here.  If the content can't be made public yet, provide an anonymized sample or mockup content instead."
-      placeholder: |
-        "Gallery Title: Region Photos"
-        "Caption: Photos of our aid shipments and frontline partners in {Region name}!"
-        "Photos: https://drive.google.com/..."
-        "Videos: https://youtube.com/..."
+      label: Lofi Mockup
+      description: Provide a lofi mockup of the component, even if it's a pen-and-paper sketch.  Alternatively link to an example of the component on another website.
+      placeholder: Drag-n-drop a mockup image or link to an examle.
     validations:
       required: true
-  - type: checkboxes
+  - type: textarea
+    id: data
+    attributes:
+      label: Data
+      description: "Describe the input data to this component. Where does it come from? Does the component transform the data before using it? Which default values should be used for missing data, if needed?  If you don't know, it's ok to state that or leave this blank."
+      placeholder: "The Glossary Reference component uses definition data from the Glossary Guide (link).  The component chooses the appropriate definition(s) to show.  If a definition doesn't exist, the Glossary Component should hide itself instead of showing a default definition, since that doesn't make sense."
+  - type: dropdown
     id: category
     attributes:
       label: Category
-      description: What types of content are involved?  Check all that apply.
+      description: What type of compoent is this? Layouts structure the page, Wrappers group other components, Content displays content, and Controls provide interactivity and collect input.
+      multiple: false
       options:
-        - label: Text
-        - label: Image
-        - label: Video
-        - label: Form
-        - label: Dataset
-        - label: Table
-        - label: Vizualization
-        - label: File Download
-        - label: Integration
+        - Layout
+        - Wrapper
+        - Content
+        - Control
+        - Other
   - type: checkboxes
     id: features
     attributes:
       label: Features
       options:
-        - label: Editors can set this content in custom fields for components.
-        - label: This content is pulled in from the API.
-        - label: This content is only visible to Editors and Admins.
+        - label: Editors can place this component in the layout.
+        - label: Editors can set custom fields for this component.
+        - label: This component relies on data from an external source.
+        - label: This component is only visible to Editors and Admins.
         - label: This component is interactive.
 
   # Production
@@ -61,17 +61,16 @@ body:
     id: scope
     attributes:
       label: Additional Support
-      description: Tell us what other help or skills you need acces to in order to finish producing this new content.  Check anything that seems useful and we'll do our best to provide it.
+      description: Tell us what other help or skills are required to create this component.  Check anything that seems useful and we'll do our best to provide it.
       options:
         - label: Research
-        - label: Copywriting / Editing
+        - label: Content Creation (text, graphics, etc)
         - label: Translation
-        - label: Design (graphics, visualizations)
-        - label: Video Production / Editing
-        - label: Frontend Component Development
+        - label: Design (UI/UX)
         - label: Custom Editor Fields (content input)
+        - label: Integration with External Services / Data Sources
         - label: Project Maintenance (Github, production infra, processes, etc)
-        - label: Fundraising (content production or licensing costs, etc)
+        - label: Fundraising (larger servers, external service fees, etc)
   - type: textarea
     id: questions
     attributes:
@@ -82,7 +81,7 @@ body:
         How does Y feature work in this project? Can it...?
         Should we take Z approach to...?
 
-  # Contributors
+ # Contributors
   # ------------------------------------------------------------
   - type: markdown
     attributes:
@@ -121,7 +120,7 @@ body:
       options:
         - label: Contribute content or code to help resolve this issue.
         - label: Review & test the changes to help decide if the issue is resolved.
-        - label: Donate to help DA resolve this issue and maintain this project.
+        - label: Donate to help maintain this project.
         - label: Receive a notification when this issue is resolved and the changes are live.
         - label: Continue to make other contributions to DA's projects, or join DA as a committed volunteer.
         - label: Recieve more information about DA and this project.
@@ -137,7 +136,6 @@ body:
       value: |
         # Boring But Important
         Distribute Aid commits to acting as a good steward of the project, it's content / code, and your contributions.  We use all of these to create public benefits inline with our charitable status and mission.
-
   - type: dropdown
     id: ipOwnership
     attributes:

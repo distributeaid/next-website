@@ -1,52 +1,161 @@
-name: 📝 Update Content
-description: Update content on the site.
-labels: ['content', 'triage']
+name: 📝 Change Content
+description: Update, replace, or remove content on the site.
+labels: ['status | triage', 'scope | content']
 body:
+  # Issue
+  # ------------------------------------------------------------
+  - type: markdown
+    attributes:
+      value: "# Content"
   - type: textarea
-    id: description
+    id: overview
     attributes:
-      label: Description
-      description: What content would you like to see changed, and where?  Which pages and/or components are involved?
-    validations:
-      required: true
-  - type: dropdown
-    id: type
-    attributes:
-      label: Type
-      description: What type of content is this?  Check all that apply.
-      multiple: false
-      options:
-        - Text
-        - Image
-        - Video
-        - Vizualization
-        - Form
-        - Table
-        - File Download
-        - Integration
+      label: Overview
+      description: "Please summarize the change: What content would you like to adjust? Does this also require changing the component that displays it?  Which pages are involved?"
+      placeholder: "On each Region page, I'd like to see the projected needs for the next year in addition to the reported needs for the next 3 months.  This requires adding a select box to the Top Needs component in order to select the right timeframe."
     validations:
       required: true
   - type: textarea
     id: content
     attributes:
       label: Content
-      description: "Please link to the public content if possible.  If not, provide an anonymized sample or mockup content here."
+      description: "Please provide a draft of the updated content or a publicly accessible link to it here.  If the updated content can't be made public yet, provide an anonymized sample or mockup content instead."
+      placeholder: |
+        "Gallery Title: Region Photos"
+        "Caption: Photos of our aid shipments and frontline partners in {Region name}!"
+        "Photos: https://drive.google.com/..."
+        "Videos: https://youtube.com/..."
+
+  # Production
+  # ------------------------------------------------------------
+  - type: markdown
+    attributes:
+      value: "# Production"
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Additional Support
+      description: Tell us what other help or skills you need access to in order to finish producing this updated content.  Check anything that seems useful and we'll do our best to provide it.
+      options:
+        - label: Research
+        - label: Copywriting / Editing
+        - label: Translation
+        - label: Design (graphics, visualizations)
+        - label: Video Production / Editing
+        - label: Frontend Component Development
+        - label: Custom Editor Fields (content input)
+        - label: Project Maintenance (Github, production infra, processes, etc)
+        - label: Fundraising (content production costs or licensing fees, etc)
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions?
+      description: Do you have any questions that the project maintainers can answer when they review this issue submission?
+      placeholder: |
+        Tell me more about X at Distribute aid...
+        How does Y feature work in this project? Can it...?
+        Should we take Z approach to...?
+
+  # Contributors
+  # ------------------------------------------------------------
+  - type: markdown
+    attributes:
+      value: |
+        # Contributors (You!)
+        _Remember that any information you submit in an issue is public._
+  - type: input
+    id: inspo
+    attributes:
+      label: Inspiration
+      description: What inspired you to contribute today by submitting this issue?
+  - type: input
+    id: impact
+    attributes:
+      label: Impact
+      description: How will resolving this issue help you or others you care about?
+  - type: checkboxes
+    id: relationToDA
+    attributes:
+      label: Relation to DA
+      description: Check each way that you engage with Distribute Aid (DA).
+      options:
+        - label: User - I use DA's projects in my own learning, research, or work.
+        - label: Contributor - I volunteer with DA or contribute to it's projects.
+        - label: Beneficiary - I recieve aid that was delivered to frontline distribution groups by DA.
+        - label: Aid Group - I volunteer with a community group that uses DA to send or receive aid.
+        - label: Partner - I work at a DA partner, service provider, or in-kind aid donor.
+        - label: Donor - I donate to DA, or my company sponsors them.
+        - label: Other - None of these options describe my relation to DA.
+        - label: None - This is my first time engaging with DA.
+  - type: checkboxes
+    id: followup
+    attributes:
+      label: Followup
+      description: How would you like to participate in this issue's resolution?  Check all that apply.
+      options:
+        - label: Contribute content or code to help resolve this issue.
+        - label: Review & test the changes to help decide if the issue is resolved.
+        - label: Donate to help maintain this project.
+        - label: Receive a notification when this issue is resolved and the changes are live.
+        - label: Continue to make other contributions to DA's projects, or join DA as a committed volunteer.
+        - label: Recieve more information about DA and this project.
+        - label: After submitting this issue, I do not wish to engage with DA further or recieve any additional followup.
+  - type: markdown
+    attributes:
+      value: "_**NOTE:** To stop recieving automated emails from Github, please unsubscribe from the issue after creating it._"
+
+  # Boring But Important
+  # ------------------------------------------------------------
+  - type: markdown
+    attributes:
+      value: |
+        # Boring But Important
+        Distribute Aid commits to acting as a good steward of the project, it's content / code, and your contributions.  We use all of these to create public benefits inline with our charitable status and mission.
+
+  - type: dropdown
+    id: ipOwnership
+    attributes:
+      label: IP Ownership
+      description: Who created and/or owns the copyright to materials described in this issue? (content, designs, code, etc)
+      multiple: false
+      options:
+        - I created the materials and own the copyright to them.
+        - I created the materials with others, and we collectively own the copyright to them.
+        - The materials are available under an open-source / open-content license (MIT, Creative Commons, etc).
+        - Others created the materials, and DA can purchase a private license to use them.
+        - I'm not sure who created the materials, who owns the copyright to them, or how they are licensed.
     validations:
       required: true
-  - type: checkboxes
-    id: features
+  - type: textarea
+    id: ipOwnershipDetails
     attributes:
-      label: Features
-      options:
-        - label: Editors can set this content in custom fields for components.
-        - label: This content is pulled in from the API.
-        - label: This content is only visible to Editors and Admins.
-        - label: Viewers can interact with this content (it's not just passively displayed content).
+      label: Ownership Details
+      description: If other people were involved in creating this content, please describe who they are and the license it's available under.
+      placeholder: |
+        My friends and I worked together on the original text draft... We all agree to assign the copyright to Distribute Aid....
+        My colleague at X tech company wrote the underlying code library, and has released it under the MIT open source license (link).
+        The content was created by someone long ago, and is in the public domain.
+        I found the image through this online service (link), but they require you to pay a $X fee to license it (link).
+        I found the code posted on a forum (link), but don't know who the original author is.
   - type: checkboxes
-    id: terms
+    id: ipAssignment
+    attributes:
+      label: Attestations & Copyright Assignment
+      description: "By submitting this issue, you agree with each of the following:"
+      options:
+        - label: To assign Distribute Aid the copyright of any materials you created specifically for this project.
+          required: true
+        - label: That Distribute Aid has the rights to use any materials you submit which were created by you or others for general use.
+          required: true
+        - label: That you have specified any additional licensing requirements related to the materials (crediting the original creators, licensing fees, etc).
+          required: true
+        - label: That the materials are not also encumbered by a patent or other types of intellectual property that limit our ability to use them.
+          required: true
+  - type: checkboxes
+    id: codeOfConduct
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/distributeaid/.github/blob/saga/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/distributeaid/.github/blob/saga/CODE_OF_CONDUCT.md).
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow Distribute Aid's Code of Conduct.
           required: true
