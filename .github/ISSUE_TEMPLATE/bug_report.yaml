@@ -1,56 +1,58 @@
-name: 🖌️ Add Content
-description: Add content to the site.
-labels: ['status | triage', 'scope | content', 'type | enhancement']
+name: 🐛 Report a Bug
+description: Report inaccurate / out-of-date content, or incorrect functionality.
+labels: ['status | triage', 'type | bug']
 body:
   # Issue
   # ------------------------------------------------------------
   - type: markdown
     attributes:
-      value: "# Content"
+      value: "# Bug Report"
   - type: textarea
     id: overview
     attributes:
       label: Overview
-      description: "Please summarize the change: What new content would you like to see?  What components should be used to display them?  Which pages are involved?"
-      placeholder: "I would like to see relevant photos on each Region page (link to example region page), using the Image Gallery component (link to example component usage).  It would also be cool to show videos, if the Photo Gallery can be upgraded to accomodate this."
+      description: "Please summarize the problem: What is not working correctly?  How is it supposed to work?"
+      placeholder: "When I select a specific Survey on the Needs Assessment Explorer and share the link with a friend, it overwrites the selected survey with the default latest survey.  Instead, it should set the selected survey so my friend can see the chart I setup."
     validations:
       required: true
   - type: textarea
-    id: content
+    id: reproduction
     attributes:
-      label: Content
-      description: "Please provide a draft of the content or a publicly accessible link to it here.  If the content can't be made public yet, provide an anonymized sample or mockup content instead."
+      label: Steps to Reproduce
+      description: "Please describe how to reporduce this bug."
       placeholder: |
-        "Gallery Title: Region Photos"
-        "Caption: Photos of our aid shipments and frontline partners in {Region name}!"
-        "Photos: https://drive.google.com/..."
-        "Videos: https://youtube.com/..."
+        1. Load the NA Explorer (link)
+        2. Select a different Survey
+        3. Copy the shareable link.
+        4. Load the shareable link in a new tab.
+        5. You can see that the default latest Survey is set instead of the one you selected.
     validations:
       required: true
   - type: checkboxes
-    id: category
+    id: deviceOS
     attributes:
-      label: Category
-      description: What types of content are involved?  Check all that apply.
+      label: Device & Operating System
+      description: What device & operating system were you using when you discovered the bug?  Check any that you can reproduce it in.
       options:
-        - label: Text
-        - label: Image
-        - label: Video
-        - label: Form
-        - label: Dataset
-        - label: Table
-        - label: Vizualization
-        - label: File Download
-        - label: Integration
+        - label: Desktop - Mac
+        - label: Desktop - Windows
+        - label: Desktop - Linux
+        - label: Tablet - Apple iOS
+        - label: Tablet - Windows
+        - label: Tablet - Android
+        - label: Mobile - Apple iOS
+        - label: Mobile - Windows
+        - label: Mobile - Android
   - type: checkboxes
-    id: features
+    id: browser
     attributes:
-      label: Features
+      label: Browser
+      description: What browser were you using when you discovered the bug?  Check any that you can reproduce it in.
       options:
-        - label: Editors can set this content in custom fields for components.
-        - label: This content is pulled in from the API.
-        - label: This content is only visible to Editors and Admins.
-        - label: This component is interactive.
+        - label: Chrome
+        - label: Firefox
+        - label: Safari
+        - label: Other
 
   # Production
   # ------------------------------------------------------------
@@ -60,18 +62,13 @@ body:
   - type: checkboxes
     id: scope
     attributes:
-      label: Additional Support
-      description: Tell us what other help or skills you need acces to in order to finish producing this new content.  Check anything that seems useful and we'll do our best to provide it.
+      label: Scope
+      description: What does this bug affect? Check all that apply.
       options:
-        - label: Research
-        - label: Copywriting / Editing
-        - label: Translation
-        - label: Design (graphics, visualizations)
-        - label: Video Production / Editing
-        - label: Frontend Component Development
-        - label: Custom Editor Fields (content input)
-        - label: Project Maintenance (Github, production infra, processes, etc)
-        - label: Fundraising (content production or licensing costs, etc)
+        - label: Content / Translation
+        - label: Design / Frontend (pages & components)
+        - label: Admin / Editor (admin-only functionality, content input, etc)
+        - label: Project (github, production infra, processes, etc)
   - type: textarea
     id: questions
     attributes:
