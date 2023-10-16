@@ -1,18 +1,18 @@
 import { FieldLabel, Field } from "@measured/puck"
-import { Grid, Dialog, Button, IconButton, Text } from "@radix-ui/themes"
+import { Flex, Dialog, Button, IconButton, Text, ScrollArea, Separator } from "@radix-ui/themes"
 import * as Icons from '@radix-ui/react-icons'
-
+import { FieldTypes } from "../types/PuckEditorField";
 
 interface IconPickerFieldProps {
   icon: string;
 }
 
-const defaultIconPickerFieldProps: IconPickerFieldProps = {
+export const defaultIconPickerFieldProps: IconPickerFieldProps = {
   icon: ""
 }
 
 const renderIconPickerField = ({ field, name, onChange, value }) => {
-  const selectedIcon = value === "" ? "None" : Icons[value]()
+  const selectedIcon = value === "" ? "None" : Icons[value].render({})
 
   return (
     <FieldLabel label={field.label || name}>
@@ -28,36 +28,40 @@ const renderIconPickerField = ({ field, name, onChange, value }) => {
 
         <Dialog.Content>
           <Dialog.Title>Choose An Icon</Dialog.Title>
-          <Dialog.Description>
+          <Dialog.Description mb="3">
             Currently selected icon: {selectedIcon}
           </Dialog.Description>
 
           {value !== "" && (
-            <Text as="p">
+            <Text as="p" mb="3">
               <Button onClick={() => {onChange("")}}>
                 Clear Selection
               </Button>
             </Text>
           )}
 
-          <Grid>
-            {Object.entries(Icons).map(([iconName, Icon]) => {
-              return (
-                <Dialog.Close>
-                  <IconButton onClick={() => {onChange(iconName)}}>
-                    <Icon />
-                  </IconButton>
-                </Dialog.Close>
-              )
-            })}
-          </Grid>
+          <Separator orientation="horizontal" size="4" mb="3" />
+
+          <ScrollArea type="always" scrollbars="vertical" style={{maxHeight: "256px"}}>
+            <Flex direction="row" wrap="wrap" gap="3">
+              {Object.entries(Icons).map(([iconName, Icon]) => {
+                return (
+                  <Dialog.Close>
+                    <IconButton variant="soft" onClick={() => {onChange(iconName)}}>
+                      <Icon />
+                    </IconButton>
+                  </Dialog.Close>
+                )
+              })}
+            </Flex>
+          </ScrollArea>
         </Dialog.Content>
       </Dialog.Root>
     </FieldLabel>
   )
 }
 
-export const IconPickerField: Field = {
-  type: "custom",
+export const IconPickerField = {
+  type: FieldTypes.CUSTOM,
   render: renderIconPickerField
 } 
