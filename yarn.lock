@@ -471,10 +471,10 @@
     react-hook-form "^7.44.2"
     unidiff "^1.0.2"
 
-"@measured/puck@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.10.0.tgz#c5a0be880ac8609167c04c37183cc2a634649b3c"
-  integrity sha512-lVkF7Dh/fAf5zvqEShUZt11Gad3i9/LAttxi0Lnm3oxVO8FE4yJ7kVpvNzg8s7gKbeeju3GbUPmmn7InlIVThA==
+"@measured/puck@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.11.0.tgz#ae0ddc4cf073d43f494b464e11ca1a38a02dfe6e"
+  integrity sha512-I5+QZBEckks9h5QF1rTLoFGGpt4p6KXyaafzSOmms1NgI56dyxzkH3s9K/SKZezHWvlbAfmVV+QcWKCWDXw/jA==
   dependencies:
     deep-diff "^1.0.2"
     event-emitter "^0.3.5"
