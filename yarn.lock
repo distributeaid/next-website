@@ -474,9 +474,9 @@
     unidiff "^1.0.2"
 
 "@measured/puck@^0.11.0":
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.11.2.tgz#0861f4a723012777ded4b00780d81fcea5d21218"
-  integrity sha512-mQqhGYLE0qeYrwZHGaZh4Gb5GPD5FgYahK8NfYcTtqz4KS296tiIz1/8ZSnRlH2QrRXYoyXDZK1PY14hiuHmJA==
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.11.3.tgz#d5bda6c28265a71a11267b4e6d57835e12f16c52"
+  integrity sha512-2qNwkDOxYErOTZ3MEWuohPrM2MtebkKrmUhxhmvsgXbRmLq3QJHxE93yz7kR38TSjwfS9Q3zGXnoxPuqIanhlg==
   dependencies:
     deep-diff "^1.0.2"
     event-emitter "^0.3.5"
