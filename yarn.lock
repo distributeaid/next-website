@@ -150,10 +150,10 @@
     outvariant "^1.4.0"
     strict-event-emitter "^0.4.3"
 
-"@codesandbox/sandpack-client@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@codesandbox/sandpack-client/-/sandpack-client-2.9.0.tgz#139d03a8081085e816a82acbb727e3a1784b1e72"
-  integrity sha512-KkG/YusBsL0RnI3P079cckHrRleLaGQVM5Plzn6xWOPM04Dce52MMkr6XIU77ZMjZm/zZ5pmgXLW7M6HoyIy/A==
+"@codesandbox/sandpack-client@^2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@codesandbox/sandpack-client/-/sandpack-client-2.10.0.tgz#01363b827195ab54c74834b420983d732e342327"
+  integrity sha512-1vLN0j8ElzTmTG43yoBj1dsOyuw6SqRH9rRa13D32jtM4v2qPFLWIFElcyNpH/YbWsCRZTUCN6ku6U4Yw/Xdvg==
   dependencies:
     "@codesandbox/nodebox" "0.1.8"
     buffer "^6.0.3"
@@ -162,9 +162,9 @@
     static-browser-server "1.0.3"
 
 "@codesandbox/sandpack-react@^2.6.7":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@codesandbox/sandpack-react/-/sandpack-react-2.9.0.tgz#bd65dfef4702d9ec35c47d4e1dda712e0b47e373"
-  integrity sha512-A0quGugVyWbRktpdq2Nc6W1+XV0QnHq1lbqDCHAs2ijfWxvhhNaqMr6lWDaG/NTUGRNLUNETbipcNaBeC0dxhw==
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@codesandbox/sandpack-react/-/sandpack-react-2.10.0.tgz#66b43013adb71982057ddcd93ef775645098710f"
+  integrity sha512-XDUOJMPp97FK9YUjHlgFQQqWJY77ih215wFz2CWEzJTalRIM6yneexcTs62Jv1VtgHmRkUxdsgZPqT6KCqKAEA==
   dependencies:
     "@codemirror/autocomplete" "^6.4.0"
     "@codemirror/commands" "^6.1.3"
@@ -174,7 +174,7 @@
     "@codemirror/language" "^6.3.2"
     "@codemirror/state" "^6.2.0"
     "@codemirror/view" "^6.7.1"
-    "@codesandbox/sandpack-client" "^2.9.0"
+    "@codesandbox/sandpack-client" "^2.10.0"
     "@lezer/highlight" "^1.1.3"
     "@react-hook/intersection-observer" "^3.1.1"
     "@stitches/core" "^1.2.6"
@@ -421,9 +421,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^1.2.2":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.9.0.tgz#a048b3264e187110a48ec16200a58f3924236a11"
-  integrity sha512-jkheI0E1C9Ou1w2wo/RPwupfjjO2eLKOqQVclpT7ipyfsac5HbMvdcXVfFQhD1zD04fRuIP2q1zisLBmRf9d7w==
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.9.1.tgz#c09c188174fff3572fed1a2156b302539162e260"
+  integrity sha512-sNZzm+5xBpkMhSpirzWhzjjnR28/WyWFOsKcFI9b1QGwYQQ6lnLkhMyBx0BKeuZoyAsFJVR9DwdT6D27ITeJJA==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.1"
     "@codemirror/merge" "^6.1.3"
