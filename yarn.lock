@@ -2,17 +2,10 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.8":
+"@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.8", "@babel/runtime@^7.22.5":
   version "7.23.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.4.tgz#36fa1d2b36db873d25ec631dcc4923fdc1cf2e2e"
   integrity sha512-2Yv65nlWnWlSpe3fXEyX5i7fx5kIKo4Qbcj+hMO0odwaneFjfXw5fdum+4yL20O0QiaHpia0cYQ9xpNMqrBwHg==
-  dependencies:
-    regenerator-runtime "^0.14.0"
-
-"@babel/runtime@^7.15.4", "@babel/runtime@^7.9.2":
-  version "7.23.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.2.tgz#062b0ac103261d68a966c4c7baf2ae3e62ec3885"
-  integrity sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -20,6 +13,13 @@
   version "7.23.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.1.tgz#72741dc4d413338a91dcb044a86f3c0bc402646d"
   integrity sha512-hC2v6p8ZSI/W0HUzh3V8C5g+NwSKzKPtJwSpTjwl0o297GP9+ZLQSkdvHz46CM3LqyoXxq+5G9komY+eSqSO0g==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
+"@babel/runtime@^7.9.2":
+  version "7.23.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.2.tgz#062b0ac103261d68a966c4c7baf2ae3e62ec3885"
+  integrity sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -220,6 +220,19 @@
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.1.6.tgz#22958c042e10b67463997bd6ea7115fe28cbcaf9"
   integrity sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==
+
+"@hello-pangea/dnd@^16.3.0":
+  version "16.3.0"
+  resolved "https://registry.yarnpkg.com/@hello-pangea/dnd/-/dnd-16.3.0.tgz#3776212f812df4e8e69c42831ec8ab7ff3a087d6"
+  integrity sha512-RYQ/K8shtJoyNPvFWz0gfXIK7HF3P3mL9UZFGMuHB0ljRSXVgMjVFI/FxcZmakMzw6tO7NflWLriwTNBow/4vw==
+  dependencies:
+    "@babel/runtime" "^7.22.5"
+    css-box-model "^1.2.1"
+    memoize-one "^6.0.0"
+    raf-schd "^4.0.3"
+    react-redux "^8.1.1"
+    redux "^4.2.1"
+    use-memo-one "^1.1.3"
 
 "@lexical/clipboard@0.12.4", "@lexical/clipboard@^0.12.4":
   version "0.12.4"
@@ -481,14 +494,14 @@
     react-hook-form "^7.44.2"
     unidiff "^1.0.2"
 
-"@measured/puck@^0.11.0":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.11.3.tgz#d5bda6c28265a71a11267b4e6d57835e12f16c52"
-  integrity sha512-2qNwkDOxYErOTZ3MEWuohPrM2MtebkKrmUhxhmvsgXbRmLq3QJHxE93yz7kR38TSjwfS9Q3zGXnoxPuqIanhlg==
+"@measured/puck@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.12.0.tgz#fb4330b56e8b3b1da6e790368958eb2b7e3d3114"
+  integrity sha512-82PBVTQnH1Pj0vUb4yx8M6Fz5qMyaKPiUaNnld3tnxqWrZ26p7yYkSmuggLj5Yxfi7D6tc5UeKofraOrr8kRfg==
   dependencies:
+    "@hello-pangea/dnd" "^16.3.0"
     deep-diff "^1.0.2"
     event-emitter "^0.3.5"
-    react-beautiful-dnd "^13.1.1"
     react-hotkeys-hook "^4.4.1"
     react-spinners "^0.13.8"
     use-debounce "^9.0.4"
@@ -1354,7 +1367,7 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/hoist-non-react-statics@^3.3.0":
+"@types/hoist-non-react-statics@^3.3.1":
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.5.tgz#dab7867ef789d87e2b4b0003c9d65c49cc44a494"
   integrity sha512-SbcrWzkKBw2cdwRTwQAswfpB9g9LJWfjtUeW/jvNwbhC8cpmmNYVePa+ncbUe0rGTQ7G3Ff6mYUN2VMfLVr+Sg==
@@ -1408,16 +1421,6 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-redux@^7.1.20":
-  version "7.1.30"
-  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.30.tgz#4f9731cc987eb6285fe2b472231fb42120efc22c"
-  integrity sha512-i2kqM6YaUwFKduamV6QM/uHbb0eCP8f8ZQ/0yWf+BsAVVsZPRYJ9eeGWZ3uxLfWwwA0SrPRMTPTqsPFkY3HZdA==
-  dependencies:
-    "@types/hoist-non-react-statics" "^3.3.0"
-    "@types/react" "*"
-    hoist-non-react-statics "^3.3.0"
-    redux "^4.0.0"
-
 "@types/react@*", "@types/react@^18.0.22":
   version "18.2.38"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.38.tgz#3605ca41d3daff2c434e0b98d79a2469d4c2dd52"
@@ -1441,6 +1444,11 @@
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.10.tgz#04ffa7f406ab628f7f7e97ca23e290cd8ab15efc"
   integrity sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==
+
+"@types/use-sync-external-store@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@types/use-sync-external-store/-/use-sync-external-store-0.0.3.tgz#b6725d5f4af24ace33b36fafd295136e75509f43"
+  integrity sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==
 
 "@typescript-eslint/parser@^5.21.0":
   version "5.62.0"
@@ -1774,7 +1782,7 @@ crelt@^1.0.5:
   resolved "https://registry.yarnpkg.com/crelt/-/crelt-1.0.6.tgz#7cc898ea74e190fb6ef9dae57f8f81cf7302df72"
   integrity sha512-VQ2MBenTq1fWZUH9DJNGti7kKv6EeAuYr3cLwxUWhIu1baTaXh4Ib5W2CqHVqib4/MqbYGJqiL3Zb8GJZr3l4g==
 
-css-box-model@^1.2.0:
+css-box-model@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/css-box-model/-/css-box-model-1.2.1.tgz#59951d3b81fd6b2074a62d49444415b0d2b4d7c1"
   integrity sha512-a7Vr4Q/kd/aw96bnJG332W9V9LkJO69JRcaCYDUqjp6/z0w6VcZjgAcTbgFxEPfBgdnAwlh3iwu+hLopa+flJw==
@@ -3098,10 +3106,10 @@ mdast-util-to-string@^4.0.0:
   dependencies:
     "@types/mdast" "^4.0.0"
 
-memoize-one@^5.1.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
-  integrity sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q==
+memoize-one@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
+  integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
@@ -3884,23 +3892,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-raf-schd@^4.0.2:
+raf-schd@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/raf-schd/-/raf-schd-4.0.3.tgz#5d6c34ef46f8b2a0e880a8fcdb743efc5bfdbc1a"
   integrity sha512-tQkJl2GRWh83ui2DiPTJz9wEiMN20syf+5oKfB03yYP7ioZcJwsIK8FjrtLwH1m7C7e+Tt2yYBlrOpdT+dyeIQ==
-
-react-beautiful-dnd@^13.1.1:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/react-beautiful-dnd/-/react-beautiful-dnd-13.1.1.tgz#b0f3087a5840920abf8bb2325f1ffa46d8c4d0a2"
-  integrity sha512-0Lvs4tq2VcrEjEgDXHjT98r+63drkKEgqyxdA7qD3mvKwga6a5SscbdLPO2IExotU1jW8L0Ksdl0Cj2AF67nPQ==
-  dependencies:
-    "@babel/runtime" "^7.9.2"
-    css-box-model "^1.2.0"
-    memoize-one "^5.1.1"
-    raf-schd "^4.0.2"
-    react-redux "^7.2.0"
-    redux "^4.0.4"
-    use-memo-one "^1.1.1"
 
 react-devtools-inline@4.4.0:
   version "4.4.0"
@@ -3944,6 +3939,11 @@ react-is@^17.0.2:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+react-is@^18.0.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
+  integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
+
 react-markdown@^9.0.0:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-9.0.1.tgz#c05ddbff67fd3b3f839f8c648e6fb35d022397d1"
@@ -3960,17 +3960,17 @@ react-markdown@^9.0.0:
     unist-util-visit "^5.0.0"
     vfile "^6.0.0"
 
-react-redux@^7.2.0:
-  version "7.2.9"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.9.tgz#09488fbb9416a4efe3735b7235055442b042481d"
-  integrity sha512-Gx4L3uM182jEEayZfRbI/G11ZpYdNAnBs70lFVMNdHJI76XYtR+7m0MN+eAs7UHBPhWXcnFPaS+9owSCJQHNpQ==
+react-redux@^8.1.1:
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.1.3.tgz#4fdc0462d0acb59af29a13c27ffef6f49ab4df46"
+  integrity sha512-n0ZrutD7DaX/j9VscF+uTALI3oUPa/pO4Z3soOBIjuRn/FzVu6aehhysxZCLi6y7duMf52WNZGMl7CtuK5EnRw==
   dependencies:
-    "@babel/runtime" "^7.15.4"
-    "@types/react-redux" "^7.1.20"
+    "@babel/runtime" "^7.12.1"
+    "@types/hoist-non-react-statics" "^3.3.1"
+    "@types/use-sync-external-store" "^0.0.3"
     hoist-non-react-statics "^3.3.2"
-    loose-envify "^1.4.0"
-    prop-types "^15.7.2"
-    react-is "^17.0.2"
+    react-is "^18.0.0"
+    use-sync-external-store "^1.0.0"
 
 react-remove-scroll-bar@^2.3.3:
   version "2.3.4"
@@ -4012,7 +4012,7 @@ react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
-redux@^4.0.0, redux@^4.0.4:
+redux@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.2.1.tgz#c08f4306826c49b5e9dc901dee0452ea8fce6197"
   integrity sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==
@@ -4514,7 +4514,7 @@ use-debounce@^9.0.4:
   resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-9.0.4.tgz#51d25d856fbdfeb537553972ce3943b897f1ac85"
   integrity sha512-6X8H/mikbrt0XE8e+JXRtZ8yYVvKkdYRfmIhWZYsP8rcNs9hk3APV8Ua2mFkKRLcJKVdnX2/Vwrmg2GWKUQEaQ==
 
-use-memo-one@^1.1.1:
+use-memo-one@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/use-memo-one/-/use-memo-one-1.1.3.tgz#2fd2e43a2169eabc7496960ace8c79efef975e99"
   integrity sha512-g66/K7ZQGYrI6dy8GLpVcMsBp4s17xNkYJVSMvTEevGy3nDxHOfE6z8BVE22+5G5x7t3+bhzrlTDB7ObrEE0cQ==
@@ -4526,6 +4526,11 @@ use-sidecar@^1.1.2:
   dependencies:
     detect-node-es "^1.1.0"
     tslib "^2.0.0"
+
+use-sync-external-store@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+  integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
 
 uvu@^0.5.0:
   version "0.5.6"
