@@ -202,9 +202,9 @@
     react-is "^17.0.2"
 
 "@floating-ui/core@^1.4.2":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.5.0.tgz#5c05c60d5ae2d05101c3021c1a2a350ddc027f8c"
-  integrity sha512-kK1h4m36DQ0UHGj5Ah4db7R0rHemTqqO0QLvUqi1/mUUp3LuAWbWxdxSIf/XsnH9VS6rRVPLJCncjRzUvyCLXg==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.5.1.tgz#62707d7ec585d0929f882321a1b1f4ea9c680da5"
+  integrity sha512-QgcKYwzcc8vvZ4n/5uklchy8KVdjJwcOeI+HnnTNclJjs2nYsy23DOCf+sSV1kBwD9yDAoVKCkv/gEPzgQU3Pw==
   dependencies:
     "@floating-ui/utils" "^0.1.3"
 
@@ -449,9 +449,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^1.2.2":
-  version "1.11.5"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.11.5.tgz#118ed1649b052bf8db4d50546fc6d973e3238b02"
-  integrity sha512-DvQr21BS56Q5M+Oc/hkU/qJvjKVJsxWLeHY5YJN6MuwAc+WTHb3sgbNK5pspYGANycl4USxhJ1GWSSF93Xo+UQ==
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.12.0.tgz#e48f4d1288095df0db2a8fd74962d8f3c404adb2"
+  integrity sha512-9T/K9Jck/ey59Y38KUkxv/QzfVmpoNzFn77Llz9m8a8oxY7C2o0qYiUkbiEPpjQP+PEY4FqYimFLffMeb0wynA==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.1"
     "@codemirror/merge" "^6.1.3"
