@@ -1273,9 +1273,9 @@
     "@babel/runtime" "^7.13.10"
 
 "@radix-ui/themes@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@radix-ui/themes/-/themes-2.0.1.tgz#b5125da412966a2ad91c706da9a231780a934ee5"
-  integrity sha512-uO+faiGfwuIR0N9utwIfuasAmH1qRHYJtYTX2Syx0UYEtc9pPAhoCoYobZZi+J03H5WaQouvGiBN6T+UUMm+6Q==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@radix-ui/themes/-/themes-2.0.2.tgz#39514b346e4a5cef0324d1e4bbe7ab09d7419bd2"
+  integrity sha512-9NaIp3HkoSkyCGAnJ21PL8yuazcV2q/q3wVNJ7jU00qZfzeybYREpoik11tMRA0+DWttQhSUy1ZqD8u6YqsbkQ==
   dependencies:
     "@radix-ui/colors" "^3.0.0"
     "@radix-ui/primitive" "^1.0.1"
