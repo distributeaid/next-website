@@ -397,9 +397,9 @@
     "@lexical/offset" "0.12.5"
 
 "@lezer/common@^1.0.0", "@lezer/common@^1.0.2", "@lezer/common@^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.1.1.tgz#4a06a0e1b9214d7eb2ea4a9354d47a63044cee49"
-  integrity sha512-aAPB9YbvZHqAW+bIwiuuTDGB4DG0sYNRObGLxud8cW7osw1ZQxfDuTZ8KQiqfZ0QJGcR34CvpTMDXEyo/+Htgg==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@lezer/common/-/common-1.1.2.tgz#2fc5cd6788094ffc816b539ab2bc55bafacd2abc"
+  integrity sha512-V+GqBsga5+cQJMfM0GdnHmg4DgWvLzgMWjbldBg0+jC3k9Gu6nJNZDLJxXEBT1Xj8KhRN4jmbC5CY7SIL++sVw==
 
 "@lezer/css@^1.0.0", "@lezer/css@^1.1.0":
   version "1.1.4"
@@ -441,17 +441,17 @@
     "@lezer/common" "^1.0.0"
 
 "@lezer/markdown@^1.0.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@lezer/markdown/-/markdown-1.1.1.tgz#9176ab0fd2ce106baa5cf09b0cd14ac433cd95fa"
-  integrity sha512-kmxvLnXCogUx2mexslWwVME1W2GQP76pwUODcFXLsuubuK41TcEJhKRm2FTKugNfEkUIspJNq9+jNo6b7dxVLA==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@lezer/markdown/-/markdown-1.1.2.tgz#1570740bc18d75da1b3d9b12f44ebcd481630ae8"
+  integrity sha512-PCla4SVSoxw95QvznrvQxC8c5Gw/sv7sMWLwJMsHsvUl6jsWeU4UneK7gtOq/fY1BaDTQIbzzSlxVuGLTSRScA==
   dependencies:
     "@lezer/common" "^1.0.0"
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^1.2.2":
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.13.2.tgz#dba00e4154ae65022f46404b55755b25ada1ef68"
-  integrity sha512-Tr2YaGEEVduX2k096A7GES1w8/d6o/1C3M9qu7R1WwYJxAyS5R/Yq2Gjk2goKrpjNDBIWdYWpIlq0s6uNChRYw==
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.13.3.tgz#c44aecbccfbd267bc6fca06ec4989ef8bd108624"
+  integrity sha512-+y9Nsew61jDOTbRIowASSMOaWJQxEa20+OSm7USvD9PA4XNBUG3tVBXLTjNfkK/DaOdrNDCHVyea4L8q4Frt3w==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.1"
     "@codemirror/merge" "^6.1.3"
