@@ -502,14 +502,13 @@
     react-hook-form "^7.44.2"
     unidiff "^1.0.2"
 
-"@measured/puck@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.12.0.tgz#fb4330b56e8b3b1da6e790368958eb2b7e3d3114"
-  integrity sha512-82PBVTQnH1Pj0vUb4yx8M6Fz5qMyaKPiUaNnld3tnxqWrZ26p7yYkSmuggLj5Yxfi7D6tc5UeKofraOrr8kRfg==
+"@measured/puck@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.13.0.tgz#01cdd04fe780ab6aa4182457a0d14e088ce1d388"
+  integrity sha512-TE2bRWftR6bQntnFnLtdPIaZDUvxgCkqbigua9Ug7SPAHwNWMFjaJmNUH9wBE0aVXpQAobC4J5Z7m/u8yPC2yg==
   dependencies:
     "@hello-pangea/dnd" "^16.3.0"
     deep-diff "^1.0.2"
-    event-emitter "^0.3.5"
     react-hotkeys-hook "^4.4.1"
     react-spinners "^0.13.8"
     use-debounce "^9.0.4"
@@ -2011,7 +2010,7 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-es5-ext@^0.10.35, es5-ext@^0.10.50, es5-ext@~0.10.14:
+es5-ext@^0.10.35, es5-ext@^0.10.50:
   version "0.10.62"
   resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.62.tgz#5e6adc19a6da524bf3d1e02bbc8960e5eb49a9a5"
   integrity sha512-BHLqn0klhEpnOKSrzn/Xsz2UIW8j+cGmo9JLzr8BiUapV8hPL9+FliFqjwr9ngW7jWdnxv6eO+/LqyhJVqgrjA==
@@ -2217,14 +2216,6 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
-
-event-emitter@^0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/event-emitter/-/event-emitter-0.3.5.tgz#df8c69eef1647923c7157b9ce83840610b02cc39"
-  integrity sha512-D9rRn9y7kLPnJ+hMq7S/nhvoKwwvVJahBi2BPmx3bvbsEdK3W9ii8cBSGjP+72/LnM4n6fo3+dkCX5FeTQruXA==
-  dependencies:
-    d "1"
-    es5-ext "~0.10.14"
 
 ext@^1.1.2:
   version "1.7.0"
