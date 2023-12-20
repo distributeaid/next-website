@@ -124,9 +124,9 @@
     crelt "^1.0.5"
 
 "@codemirror/merge@^6.1.3":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@codemirror/merge/-/merge-6.3.1.tgz#db44d176f6308f5eb4db0cff40cce5be026a35f3"
-  integrity sha512-WDix7y+SLirNX1s9HOijBdozIGcqFRPAHvTakBRuCHp4wMftQezx203wWJzafBcZi4Jaa+pq1092Lbu8zFEljQ==
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@codemirror/merge/-/merge-6.4.0.tgz#2283723a6c9d8f455146d60cedcdf2cb611e089d"
+  integrity sha512-b9khHrsDD6chscJk25nX0Y7es5/JyLtdlhTom3ct4CyIXRKxLnHN6yfefLIFFUic71gZRJjOQv+sW+QbWXlFZA==
   dependencies:
     "@codemirror/language" "^6.0.0"
     "@codemirror/state" "^6.0.0"
@@ -148,9 +148,9 @@
   integrity sha512-0wufKcTw2dEwEaADajjHf6hBy1sh3M6V0e+q4JKIhLuiMSe5td5HOWpUdvKth1fT1M9VYOboajoBHpkCd7PG7A==
 
 "@codemirror/view@^6.0.0", "@codemirror/view@^6.17.0", "@codemirror/view@^6.21.0", "@codemirror/view@^6.7.1":
-  version "6.22.2"
-  resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-6.22.2.tgz#79a4b87f5bb3f057cb046295b102eb04fd31a50d"
-  integrity sha512-cJp64cPXm7QfSBWEXK+76+hsZCGHupUgy8JAbSzMG6Lr0rfK73c1CaWITVW6hZVkOnAFxJTxd0PIuynNbzxYPw==
+  version "6.22.3"
+  resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-6.22.3.tgz#22514a0256d0fbd3e9079d7c49cb97f35593156c"
+  integrity sha512-rqnq+Zospwoi3x1vZ8BGV1MlRsaGljX+6qiGYmIpJ++M+LCC+wjfDaPklhwpWSgv7pr/qx29KiAKQBH5+DOn4w==
   dependencies:
     "@codemirror/state" "^6.1.4"
     style-mod "^4.1.0"
@@ -426,9 +426,9 @@
     "@lezer/lr" "^1.0.0"
 
 "@lezer/javascript@^1.0.0":
-  version "1.4.10"
-  resolved "https://registry.yarnpkg.com/@lezer/javascript/-/javascript-1.4.10.tgz#4a0db15004479517da8492b654f3e3ead0221732"
-  integrity sha512-XJu3fZjHVVjJcRS7kHdwBO50irXc4H8rQwgm6SmT3Y8IHWk7WzpaLsaR2vdr/jSk/J4pQhXc1WLul7jVdxC+0Q==
+  version "1.4.11"
+  resolved "https://registry.yarnpkg.com/@lezer/javascript/-/javascript-1.4.11.tgz#4ca7681e29fda6f960e15d958ee4f4ceaf577223"
+  integrity sha512-B5Y9EJF4BWiMgj4ufxUo2hrORnmMBDrMtR+L7dwIO5pocuSAahG6QBwXR6PbKJOjRywJczU2r2LJPg79ER91TQ==
   dependencies:
     "@lezer/highlight" "^1.1.3"
     "@lezer/lr" "^1.3.0"
@@ -449,9 +449,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^1.2.2":
-  version "1.13.5"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.13.5.tgz#6d78ae8998ba53a7f2537c5eadf4628ad971b814"
-  integrity sha512-KZIzxBRK78aVdWqZUB7jC4B+nFFkVMbOyHga2GQUlLC/44qxA3JwtcpqIS80l30KpOVHQUulPpnSm9XqOdyvRQ==
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-1.14.0.tgz#ab8fcde50936c11d5be0a8cb7b8bbd2e4d3ce1bf"
+  integrity sha512-BVD6P1xK2zHJLe2Ajpqh57WMpdfXk5p/15mE/Wb/Kv+m5lwI5TSievhNKbkORcQDIUxpw9Gp+KxB2ECO5Pbzxg==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.1"
     "@codemirror/merge" "^6.1.3"
@@ -3802,10 +3802,15 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-outvariant@1.4.0, outvariant@^1.3.0, outvariant@^1.4.0:
+outvariant@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/outvariant/-/outvariant-1.4.0.tgz#e742e4bda77692da3eca698ef5bfac62d9fba06e"
   integrity sha512-AlWY719RF02ujitly7Kk/0QlV+pXGFDHrHf9O2OKqyqgBieaPOIeuSkL8sRK6j2WK+/ZAURq2kZsY0d8JapUiw==
+
+outvariant@^1.3.0, outvariant@^1.4.0:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/outvariant/-/outvariant-1.4.2.tgz#f54f19240eeb7f15b28263d5147405752d8e2066"
+  integrity sha512-Ou3dJ6bA/UJ5GVHxah4LnqDwZRwAmWxrG3wtrHrbGnP4RnLCtA64A4F+ae7Y8ww660JaddSoArUR5HjipWSHAQ==
 
 parse-entities@^4.0.0:
   version "4.0.1"
@@ -3919,9 +3924,9 @@ react-error-boundary@^3.1.4:
     "@babel/runtime" "^7.12.5"
 
 react-hook-form@^7.44.2:
-  version "7.49.0"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.49.0.tgz#9a91edfba6b6983d4b443653a9b225a780a42b3e"
-  integrity sha512-gf4qyY4WiqK2hP/E45UUT6wt3Khl49pleEVcIzxhLBrD6m+GMWtLRk0vMrRv45D1ZH8PnpXFwRPv0Pewske2jw==
+  version "7.49.2"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.49.2.tgz#6fb2742e1308020f26cb1915c7012b6c07b11ade"
+  integrity sha512-TZcnSc17+LPPVpMRIDNVITY6w20deMdNi6iehTFLV1x8SqThXGwu93HjlUVU09pzFgZH7qZOvLMM7UYf2ShAHA==
 
 react-hotkeys-hook@^4.4.1:
   version "4.4.1"
@@ -4031,9 +4036,9 @@ reflect.getprototypeof@^1.0.4:
     which-builtin-type "^1.1.3"
 
 regenerator-runtime@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
-  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
+  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
 
 regexp.prototype.flags@^1.5.0, regexp.prototype.flags@^1.5.1:
   version "1.5.1"
