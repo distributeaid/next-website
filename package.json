@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mdxeditor/editor": "^1.2.2",
+    "@mdxeditor/editor": "^2.0.0",
     "@measured/puck": "^0.13.0",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/themes": "^2.0.0",
