@@ -438,9 +438,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.3.7"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.3.7.tgz#14b2a76f1801acb4bd6d24457ff5ed3953d6dbc0"
-  integrity sha512-3MxT+CekVexkiOahMc0U5CZiowzy8WxDlYq8FlnjEkonkuDjK7dTsya74ii1Lljlsjkl5w/bZXKptRajW9K8lQ==
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.3.8.tgz#18df4d5db7205d3e0b643832fa9364731af8042f"
+  integrity sha512-ieUM2+IHjcZ7ksHyQZUEeEKKewLA1ixcVoXwtKqc6RBY90yD4kYO+n6DlrjdW7wupwn4OBADEXfRmc31/fIyrQ==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
@@ -487,6 +487,7 @@
     micromark-extension-mdx-md "^2.0.0"
     micromark-extension-mdxjs "^3.0.0"
     micromark-factory-space "^2.0.0"
+    micromark-util-character "^2.0.1"
     micromark-util-symbol "^2.0.0"
     react-hook-form "^7.44.2"
     unidiff "^1.0.2"
@@ -3055,7 +3056,7 @@ micromark-factory-whitespace@^2.0.0:
     micromark-util-symbol "^2.0.0"
     micromark-util-types "^2.0.0"
 
-micromark-util-character@^2.0.0:
+micromark-util-character@^2.0.0, micromark-util-character@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/micromark-util-character/-/micromark-util-character-2.0.1.tgz#52b824c2e2633b6fb33399d2ec78ee2a90d6b298"
   integrity sha512-3wgnrmEAJ4T+mGXAUfMvMAbxU9RDG43XmGce4j6CwPtVxB3vfwXSZ6KhFwDzZ3mZHhmPimMAXg71veiBGzeAZw==
