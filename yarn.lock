@@ -438,9 +438,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.4.0.tgz#142b39ce67492ccd7454fe98a91dfb41bab78671"
-  integrity sha512-GkQhW6kZWQ19slXQWGy8P5a1kE+l0hWlozIrjrPQgFpA7Be1YpIieD7U+cy1EGlhxu/d6YZ5rKdWgjMg7qjncA==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.5.1.tgz#ef586a5ee5f88be0c939bc854b72d49c0e7776a7"
+  integrity sha512-aoIutHtZKJS6PosiBT4KgdXUsyDGJ+tgZSm8W6C6++tF4H27N7n8LxipQ5VNawPjHQ6LaEgfxuLQ9Qwu5wxT0g==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
