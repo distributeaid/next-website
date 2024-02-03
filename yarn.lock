@@ -89,9 +89,9 @@
     "@lezer/markdown" "^1.0.0"
 
 "@codemirror/language@^6.0.0", "@codemirror/language@^6.3.0", "@codemirror/language@^6.3.2", "@codemirror/language@^6.4.0", "@codemirror/language@^6.6.0":
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/@codemirror/language/-/language-6.10.0.tgz#2d0e818716825ee2ed0dacd04595eaa61bae8f23"
-  integrity sha512-2vaNn9aPGCRFKWcHPFksctzJ8yS5p7YoaT+jHpc0UGKzNuAIx4qy6R5wiqbP+heEEdyaABA582mNqSHzSoYdmg==
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/@codemirror/language/-/language-6.10.1.tgz#428c932a158cb75942387acfe513c1ece1090b05"
+  integrity sha512-5GrXzrhq6k+gL5fjkAwt90nYDmjlzTIJV8THnxNFtNKWotMIlzzN+CpqxqwXOECnUdOndmSeWntVrVcv5axWRQ==
   dependencies:
     "@codemirror/state" "^6.0.0"
     "@codemirror/view" "^6.23.0"
@@ -101,9 +101,9 @@
     style-mod "^4.0.0"
 
 "@codemirror/lint@^6.0.0":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@codemirror/lint/-/lint-6.4.2.tgz#c13be5320bde9707efdc94e8bcd3c698abae0b92"
-  integrity sha512-wzRkluWb1ptPKdzlsrbwwjYCPLgzU6N88YBAmlZi8WFyuiEduSd05MnJYNogzyc8rPK7pj6m95ptUApc8sHKVA==
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@codemirror/lint/-/lint-6.5.0.tgz#ea43b6e653dcc5bcd93456b55e9fe62e63f326d9"
+  integrity sha512-+5YyicIaaAZKU8K43IQi8TBy6mF6giGeWAH7N96Z5LC30Wm5JMjqxOYIE9mxwMG1NbhT2mA3l9hA4uuKUM3E5g==
   dependencies:
     "@codemirror/state" "^6.0.0"
     "@codemirror/view" "^6.0.0"
@@ -438,9 +438,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.5.1.tgz#ef586a5ee5f88be0c939bc854b72d49c0e7776a7"
-  integrity sha512-aoIutHtZKJS6PosiBT4KgdXUsyDGJ+tgZSm8W6C6++tF4H27N7n8LxipQ5VNawPjHQ6LaEgfxuLQ9Qwu5wxT0g==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.7.0.tgz#01f45794d396b182545203bcd09674d9789bec22"
+  integrity sha512-2tb+q+0whiXU7nml3izAQO67spdmEAYYxOQdu6lfi1PD4VfCwnjWQznezLSZe53KBhBQBSddh6bMks3Ak5qZVQ==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
@@ -1268,9 +1268,9 @@
     "@types/ms" "*"
 
 "@types/estree-jsx@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@types/estree-jsx/-/estree-jsx-1.0.3.tgz#f8aa833ec986d82b8271a294a92ed1565bf2c66a"
-  integrity sha512-pvQ+TKeRHeiUGRhvYwRrQ/ISnohKkSJR14fT2yqyZ4e9K5vqc7hrtY2Y1Dw0ZwAzQ6DQsxsaCUuSIIi8v0Cq6w==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/estree-jsx/-/estree-jsx-1.0.4.tgz#8d34b43444887dde8a73af530f772f23e1d3287c"
+  integrity sha512-5idy3hvI9lAMqsyilBM+N+boaCf1MgoefbDxN6KEO5aK17TOHwFAYT9sjxzeKAiIWRUBgLxmZ9mPcnzZXtTcRQ==
   dependencies:
     "@types/estree" "*"
 
@@ -1280,9 +1280,9 @@
   integrity sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==
 
 "@types/hast@^3.0.0":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@types/hast/-/hast-3.0.3.tgz#7f75e6b43bc3f90316046a287d9ad3888309f7e1"
-  integrity sha512-2fYGlaDy/qyLlhidX42wAH0KBi2TCjKMH8CHmBXgRlJ3Y+OXTiqsPQ6IWarZKwF1JoUcAJdPogv1d4b0COTpmQ==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@types/hast/-/hast-3.0.4.tgz#1d6b39993b82cea6ad783945b0508c25903e15aa"
+  integrity sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==
   dependencies:
     "@types/unist" "*"
 
@@ -2809,9 +2809,9 @@ mdast-util-mdxjs-esm@^2.0.0:
     mdast-util-to-markdown "^2.0.0"
 
 mdast-util-phrasing@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-phrasing/-/mdast-util-phrasing-4.0.0.tgz#468cbbb277375523de807248b8ad969feb02a5c7"
-  integrity sha512-xadSsJayQIucJ9n053dfQwVu1kuXg7jCTdYsMK8rqzKZh52nLfSH/k0sAxE0u+pj/zKZX+o5wB+ML5mRayOxFA==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/mdast-util-phrasing/-/mdast-util-phrasing-4.1.0.tgz#7cc0a8dec30eaf04b7b1a9661a92adb3382aa6e3"
+  integrity sha512-TqICwyvJJpBwvGAMZjj4J2n0X8QWp21b9l0o7eXyVJ25YNWYbJDVIyD1bZXE6WtV6RmKJVYmQAKWa0zWOABz2w==
   dependencies:
     "@types/mdast" "^4.0.0"
     unist-util-is "^6.0.0"
@@ -3450,9 +3450,9 @@ react-error-boundary@^3.1.4:
     "@babel/runtime" "^7.12.5"
 
 react-hook-form@^7.44.2:
-  version "7.49.3"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.49.3.tgz#576a4567f8a774830812f4855e89f5da5830435c"
-  integrity sha512-foD6r3juidAT1cOZzpmD/gOKt7fRsDhXXZ0y28+Al1CHgX+AY1qIN9VSIIItXRq1dN68QrRwl1ORFlwjBaAqeQ==
+  version "7.50.0"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.50.0.tgz#379802d85c7b78e0056229c53607946d34f99a36"
+  integrity sha512-AOhuzM3RdP09ZCnq+Z0yvKGHK25yiOX5phwxjV9L7U6HMla10ezkBnvQ+Pk4GTuDfsC5P2zza3k8mawFwFLVuQ==
 
 react-hotkeys-hook@^4.4.1:
   version "4.4.4"
