@@ -6,6 +6,7 @@ import { MarkdownConfig } from "./src/components/Markdown"
 import { ParagraphConfig } from "./src/components/Paragraph"
 import { BlockquoteConfig } from "./src/components/Blockquote"
 import { CalloutConfig } from "./src/components/Callout"
+import { AvatarConfig } from "./src/components/Avatar"
 
 export const config: Config = {
   components: {
@@ -14,7 +15,8 @@ export const config: Config = {
     Markdown: MarkdownConfig,
     Paragraph: ParagraphConfig,
     Blockquote: BlockquoteConfig,
-    Callout: CalloutConfig
+    Callout: CalloutConfig,
+    Avatar: AvatarConfig
   },
 };
 
