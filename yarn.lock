@@ -121,9 +121,9 @@
     style-mod "^4.1.0"
 
 "@codemirror/search@^6.0.0":
-  version "6.5.5"
-  resolved "https://registry.yarnpkg.com/@codemirror/search/-/search-6.5.5.tgz#cf97e201da364da2285c2a250167af25bbd2a4a2"
-  integrity sha512-PIEN3Ke1buPod2EHbJsoQwlbpkz30qGZKcnmH1eihq9+bPQx8gelauUwLYaY4vBOuBAuEhmpDLii4rj/uO0yMA==
+  version "6.5.6"
+  resolved "https://registry.yarnpkg.com/@codemirror/search/-/search-6.5.6.tgz#8f858b9e678d675869112e475f082d1e8488db93"
+  integrity sha512-rpMgcsh7o0GuCDUXKPvww+muLA1pDJaFrpq/CCHtpQJYz8xopu4D1hPcKRoDD0YlF8gZaqTNIRa4VRBWyhyy7Q==
   dependencies:
     "@codemirror/state" "^6.0.0"
     "@codemirror/view" "^6.0.0"
@@ -437,9 +437,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.7.1.tgz#8f5184d9b2eb7166f26fb8fe6261b4aaeaa4895e"
-  integrity sha512-JeJMTxT93YsxTa5pLrOQScnot8OetfB9wCPr0YV4EIG8WEn4/lYaZJatBqWN/scDAAN4hstN0OFoO4Bo0HF4aQ==
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.8.0.tgz#f39090333fff41eed05be9baddcd3dc497c06a82"
+  integrity sha512-aZQlOCO+upKH4QnZzl/qN8R5vgKpn4YA1ll1JdIj1tKIYN+8ItWvTYMCAYxSNMnCQniLEArKQgPOB8Hblo58gQ==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
