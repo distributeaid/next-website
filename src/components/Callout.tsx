@@ -12,6 +12,7 @@ type Props = {
 
 export const CalloutConfig: ComponentConfig<Props> = {
   fields: {
+    //@ts-ignore
     icon: {
       ...IconPickerField
     },
