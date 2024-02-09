@@ -1,4 +1,4 @@
-# `next` recipe
+# Distribute Aid Website 3.0 🥳
 
 The `next` recipe showcases one of the most powerful ways to implement Puck using to provide an authoring tool for any route in your Next app.
 
