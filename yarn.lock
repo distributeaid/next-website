@@ -437,9 +437,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.12.0.tgz#422c582ba0122d4bb2397d47382234575efe4dda"
-  integrity sha512-2ucV0Tkw9zNZFUrppnFgkFQuX8trMBjSJawqb6w7MkPuAuuf+e9iEZdJMDozrc+28rtp0xfNWgUINcuaVtoIAA==
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.12.1.tgz#fea16bfbd7a9de553ce0f9f86d995d9c8166cc72"
+  integrity sha512-8+QDABGA1pCYQUioyDIsOMum2W8riqVoolZfbiFI1nSeE1afNLk8FOALaVyAvzeoobGnSYnqD2nEUUMdHT6HtQ==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
@@ -2780,9 +2780,9 @@ mdast-util-mdx-expression@^2.0.0:
     mdast-util-to-markdown "^2.0.0"
 
 mdast-util-mdx-jsx@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.1.0.tgz#5f7f204cf3f380cba1a8441142406eede1bc7660"
-  integrity sha512-A8AJHlR7/wPQ3+Jre1+1rq040fX9A4Q1jG8JxmSNp/PLPHg80A6475wxTp3KzHpApFH6yWxFotHrJQA3dXP6/w==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.1.1.tgz#f0375bda7a704448de9130356d0d7bf0d873b7b0"
+  integrity sha512-Di63TQEHbiApe6CFp/qQXCORHMHnmW2JFdr5PYH57LuEIPjijRHicAmL5wQu+B0/Q4p0qJaEOE1EkhiwxiNmAQ==
   dependencies:
     "@types/estree-jsx" "^1.0.0"
     "@types/hast" "^3.0.0"
