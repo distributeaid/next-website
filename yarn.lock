@@ -17,9 +17,9 @@
     regenerator-runtime "^0.14.0"
 
 "@codemirror/autocomplete@^6.0.0", "@codemirror/autocomplete@^6.4.0", "@codemirror/autocomplete@^6.7.1":
-  version "6.13.0"
-  resolved "https://registry.yarnpkg.com/@codemirror/autocomplete/-/autocomplete-6.13.0.tgz#fa7df3b2809863df0da4556f72ac4263ea4d7adb"
-  integrity sha512-SuDrho1klTINfbcMPnyro1ZxU9xJtwDMtb62R8TjL/tOl71IoOsvBo1a9x+hDvHhIzkTcJHy2VC+rmpGgYkRSw==
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/@codemirror/autocomplete/-/autocomplete-6.14.0.tgz#297071b51c8849ff35bbdd8c323964e113c10d84"
+  integrity sha512-Kx9BCSOLKmqNXEvmViuzsBQJ2VEa/wWwOATNpixOa+suttTV3rDnAUtAIt5ObAUFjXvZakWfFfF/EbxELnGLzQ==
   dependencies:
     "@codemirror/language" "^6.0.0"
     "@codemirror/state" "^6.0.0"
@@ -110,9 +110,9 @@
     crelt "^1.0.5"
 
 "@codemirror/merge@^6.4.0":
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/@codemirror/merge/-/merge-6.6.0.tgz#da380a1ce14f4cd54b71f233deefdd94bc1bc839"
-  integrity sha512-VXKxm8Jrv2HpEVW9CcYiV4VMVWsFz2XOk34Ve9ouqFT4iKc2r9+IGuMjyeH+g5T0HKUnRGYIv2wayMsPtao7Zw==
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/@codemirror/merge/-/merge-6.6.1.tgz#dbdb873c74ffac4d4248a8cbf5898ea727d2be7e"
+  integrity sha512-7wuc0R8+CSMlGZzEpxphQVkoBYb4D+M/MeB7/8g1ZrmLuP1wxhyOy7xWftmCzjKlVuRAUaKgBoA3LHS42H8eKA==
   dependencies:
     "@codemirror/language" "^6.0.0"
     "@codemirror/state" "^6.0.0"
@@ -437,9 +437,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.12.1.tgz#fea16bfbd7a9de553ce0f9f86d995d9c8166cc72"
-  integrity sha512-8+QDABGA1pCYQUioyDIsOMum2W8riqVoolZfbiFI1nSeE1afNLk8FOALaVyAvzeoobGnSYnqD2nEUUMdHT6HtQ==
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.13.0.tgz#f4323c610dbbc45666811f52e134cca036abd21c"
+  integrity sha512-b4A7Yt45kOcKYggAn8mYwpuKw3T2FxamX1AdpC9Qx5YmGkAOoU+vnPM9pWpI7vBCz0A2aZ0osRKkuDvLqjnWSg==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
