@@ -135,9 +135,9 @@
   integrity sha512-QkEyUiLhsJoZkbumGZlswmAhA7CBU02Wrz7zvH4SrcifbsqwlXShVXg65f3v/ts57W3dqyamEriMhij1Z3Zz4A==
 
 "@codemirror/view@^6.0.0", "@codemirror/view@^6.17.0", "@codemirror/view@^6.23.0", "@codemirror/view@^6.7.1":
-  version "6.25.1"
-  resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-6.25.1.tgz#826ea345fd757dbeeab6a6165c1823e851c67d16"
-  integrity sha512-2LXLxsQnHDdfGzDvjzAwZh2ZviNJm7im6tGpa0IONIDnFd8RZ80D2SNi8PDi6YjKcMoMRK20v6OmKIdsrwsyoQ==
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-6.26.0.tgz#ab5a85aa8ebfb953cb5534e07d0a3751f9a3869a"
+  integrity sha512-nSSmzONpqsNzshPOxiKhK203R6BvABepugAe34QfQDbNDslyjkqBuKgrK5ZBvqNXpfxz5iLrlGTmEfhbQyH46A==
   dependencies:
     "@codemirror/state" "^6.4.0"
     style-mod "^4.1.0"
@@ -437,9 +437,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.13.2"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.13.2.tgz#43f4800fd77c4357bcc0fa8483ea3dd7bd46c7eb"
-  integrity sha512-0PQPRR2ODlUmmflRjlBPLrq+1nn1SsQHtqRWaBxSpYHAgeEfUb6tM3CnEBHIeINMUoJRE2REm4amqAyMXNQzjg==
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.14.0.tgz#640966e77b62396bbd86d401568496c745bf24dd"
+  integrity sha512-YW/aptH3mG6fJwMY2UcHJnk9foVI0b6WYBNd8dpJvaXWyz3/IR6vyw0UYsLaAJdt4PUepo/gPn6BwS1rIwhQgw==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
@@ -492,9 +492,9 @@
     unidiff "^1.0.2"
 
 "@mdxeditor/gurx@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/gurx/-/gurx-1.1.1.tgz#3520b2dd41b653ed2eeb0bdcf5efdaff2b896864"
-  integrity sha512-D9qbPzNLh4ifrKqOedeM5yG4xa5LMeCwotnQeLeyBLT0HlIk2yqnMBbVy2q6zbR+iiEE9ItBdpSelMOUW7ISfA==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/gurx/-/gurx-1.1.2.tgz#0e9faad5e735322bda9cb7d5535a489538760677"
+  integrity sha512-7JjgGeMqaM5SDCV3mrb1Gx0+rFfSoN/+Ah9S7YRbxA0Bc3C+ymMu1qK/xed9Nzlfz8fgdwi73Oe8lCY9wfn/dw==
   dependencies:
     react "^18.2.0"
     react-dom "^18.2.0"
@@ -3516,9 +3516,9 @@ react-redux@^8.1.3:
     use-sync-external-store "^1.0.0"
 
 react-remove-scroll-bar@^2.3.3:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.5.tgz#cd2543b3ed7716c7c5b446342d21b0e0b303f47c"
-  integrity sha512-3cqjOqg6s0XbOjWvmasmqHch+RLxIEk2r/70rzGXuz3iIGQsQheEQyqYCBb5EECoD01Vo2SIbDqW4paLeLTASw==
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.6.tgz#3e585e9d163be84a010180b18721e851ac81a29c"
+  integrity sha512-DtSYaao4mBmX+HDo5YWYdBWQwYIQQshUV/dVxFxK+KM26Wjwp1gZ6rv6OC3oujI6Bfu6Xyg3TwK533AQutsn/g==
   dependencies:
     react-style-singleton "^2.2.1"
     tslib "^2.0.0"
