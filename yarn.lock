@@ -10,9 +10,9 @@
     regenerator-runtime "^0.14.0"
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.8":
-  version "7.24.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.0.tgz#584c450063ffda59697021430cb47101b085951e"
-  integrity sha512-Chk32uHMg6TnQdvw2e9IlqPpFX/6NLuK0Ys2PqLb7/gL5uFn9mXvK715FGLlOLQrcO4qIkNHkvPGktzzXexsFw==
+  version "7.24.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.1.tgz#431f9a794d173b53720e69a6464abc6f0e2a5c57"
+  integrity sha512-+BIznRzyqBf+2wCTxcKE3wDjfGeCoVE61KSHGpkzqrLi8qxqFwBeUFyId2cxkTmm55fzDGnm0+yCxaxygrLUnQ==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -437,9 +437,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.15.1"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.15.1.tgz#8b3c39cc940be7fbeb2c9231da6db8df22ce0ddf"
-  integrity sha512-EgRyqF5/rfg5cy4noFSrFRi8z42VCu+m9bGLRDj6FomtwzOd2n8RLqsQx4isOCplv8x7OTqTZw/KQ6j7UHmi1A==
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.16.0.tgz#b716520e40d31af0e29ba92ed4748409fad91d48"
+  integrity sha512-9YnnIoVQntlZRHstkRxwDSFwioky0paVuzJtx2geAp+JLmDZHBCK63ZSLH+46i3QNsszMBcMMOZftKR9l9tRnA==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
