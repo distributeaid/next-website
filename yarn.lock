@@ -437,9 +437,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.16.0.tgz#b716520e40d31af0e29ba92ed4748409fad91d48"
-  integrity sha512-9YnnIoVQntlZRHstkRxwDSFwioky0paVuzJtx2geAp+JLmDZHBCK63ZSLH+46i3QNsszMBcMMOZftKR9l9tRnA==
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.18.0.tgz#250af40cd2091bd0c28d5a122a889c3f5cca4a60"
+  integrity sha512-lIS/goAqOv/aM0LRFdASJ4c1NZnmPEY1CIogniQ0e80dyFk1Fn1mlncE/v9iy7u7q4EEukDbKwT6TQVrtAo+iw==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
@@ -1428,9 +1428,9 @@ argparse@^2.0.1:
   integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
 aria-hidden@^1.1.1:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/aria-hidden/-/aria-hidden-1.2.3.tgz#14aeb7fb692bbb72d69bebfa47279c1fd725e954"
-  integrity sha512-xcLxITLe2HYa1cnYnwCjkOO1PqUHQpozB8x9AR0OgWN2woOBi5kSDVxKfd0b7sb1hw5qFeJhXm9H1nu3xSfLeQ==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/aria-hidden/-/aria-hidden-1.2.4.tgz#b78e383fdbc04d05762c78b4a25a501e736c4522"
+  integrity sha512-y+CcFFwelSXpLZk/7fMB2mUbGtX9lKycf1MWJ7CaTIERyitVlyQx6C+sxcROU2BAJ24OiZyK+8wj2i8AlBoS3A==
   dependencies:
     tslib "^2.0.0"
 
@@ -4006,9 +4006,9 @@ unist-util-visit@^5.0.0:
     unist-util-visit-parents "^6.0.0"
 
 use-callback-ref@^1.3.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/use-callback-ref/-/use-callback-ref-1.3.1.tgz#9be64c3902cbd72b07fe55e56408ae3a26036fd0"
-  integrity sha512-Lg4Vx1XZQauB42Hw3kK7JM6yjVjgFmFC5/Ab797s79aARomD2nEErc4mCgM8EZrARLmmbWpi5DGCadmK50DcAQ==
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/use-callback-ref/-/use-callback-ref-1.3.2.tgz#6134c7f6ff76e2be0b56c809b17a650c942b1693"
+  integrity sha512-elOQwe6Q8gqZgDA8mrh44qRTQqpIHDcZ3hXTLjBe1i4ph8XpNJnO+aQf3NaG+lriLopI4HMx9VjQLfPQ6vhnoA==
   dependencies:
     tslib "^2.0.0"
 
