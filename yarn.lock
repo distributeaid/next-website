@@ -214,19 +214,6 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.1.tgz#16308cea045f0fc777b6ff20a9f25474dd8293d2"
   integrity sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==
 
-"@hello-pangea/dnd@^16.3.0":
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/@hello-pangea/dnd/-/dnd-16.5.0.tgz#f323ff9f813204818bc67648a383e8715f47c59c"
-  integrity sha512-n+am6O32jo/CFXciCysz83lPM3I3F58FJw4uS44TceieymcyxQSfzK5OhzPAKrVBZktmuOI6Zim9WABTMtXv4A==
-  dependencies:
-    "@babel/runtime" "^7.23.2"
-    css-box-model "^1.2.1"
-    memoize-one "^6.0.0"
-    raf-schd "^4.0.3"
-    react-redux "^8.1.3"
-    redux "^4.2.1"
-    use-memo-one "^1.1.3"
-
 "@lexical/clipboard@0.13.1", "@lexical/clipboard@^0.13.1":
   version "0.13.1"
   resolved "https://registry.yarnpkg.com/@lexical/clipboard/-/clipboard-0.13.1.tgz#ca132306129974ea2c9e51d6a8637f8fcffcdb3d"
@@ -499,12 +486,34 @@
     react "^18.2.0"
     react-dom "^18.2.0"
 
-"@measured/puck@^0.13.0":
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.13.1.tgz#07514241229e968b0fee6f4f6873576936ac3019"
-  integrity sha512-cOyqws0EH82oqN/NsDFlRHI48DGKy6/rqJFDX5g6Kx6Itn6JNa6jg51sEopvCN0tlDE79DZ8lkCRjdu7OD4+mA==
+"@measured/auto-frame-component@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@measured/auto-frame-component/-/auto-frame-component-0.1.1.tgz#d96e74e686933590361e8b5aa99d3447d624f16d"
+  integrity sha512-w/Ge4yxmODZm86fBnYkRlSKiVWqG8lIrE3COOY3PsjeEfXMloAei99wBgtM53gRgnqFWzd6PL/jJN9GGcA906w==
   dependencies:
-    "@hello-pangea/dnd" "^16.3.0"
+    object-hash "^3.0.0"
+    react-frame-component "5.2.6"
+
+"@measured/dnd@16.6.0-canary.c7c88e8":
+  version "16.6.0-canary.c7c88e8"
+  resolved "https://registry.yarnpkg.com/@measured/dnd/-/dnd-16.6.0-canary.c7c88e8.tgz#8587e1ba86a55d6e720bbf98c04d3f17b3865553"
+  integrity sha512-RZGmVyBaB6kaUblBAMptwOKiWSSwfiLuN/Ai0er0oiWjgL/p5/LWwcHRsR2TGuyNL2od4EY+eAeG+9kc+F50NA==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
+    css-box-model "^1.2.1"
+    memoize-one "^6.0.0"
+    raf-schd "^4.0.3"
+    react-redux "^8.1.3"
+    redux "^4.2.1"
+    use-memo-one "^1.1.3"
+
+"@measured/puck@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.14.0.tgz#b876fd393aa230c647a7ac53808c6839989a5844"
+  integrity sha512-qlsIIlaiXnkgjVwyK/AqoHP6YHrt5yTA1qCaBOTgK5fYqvqLxHUMGOqoEAv0LCcOVdhT0QnOCQkDjpEDNV5g+g==
+  dependencies:
+    "@measured/auto-frame-component" "0.1.1"
+    "@measured/dnd" "16.6.0-canary.c7c88e8"
     deep-diff "^1.0.2"
     react-hotkeys-hook "^4.4.1"
     react-spinners "^0.13.8"
@@ -3275,6 +3284,11 @@ object-assign@^4.1.1:
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
 
+object-hash@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-3.0.0.tgz#73f97f753e7baffc0e2cc9d6e079079744ac82e9"
+  integrity sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==
+
 object-inspect@^1.13.1, object-inspect@^1.9.0:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.1.tgz#b96c6109324ccfef6b12216a956ca4dc2ff94bc2"
@@ -3455,6 +3469,11 @@ react-error-boundary@^3.1.4:
   integrity sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==
   dependencies:
     "@babel/runtime" "^7.12.5"
+
+react-frame-component@5.2.6:
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/react-frame-component/-/react-frame-component-5.2.6.tgz#0d9991d251ff1f7177479d8f370deea06b824b79"
+  integrity sha512-CwkEM5VSt6nFwZ1Op8hi3JB5rPseZlmnp5CGiismVTauE6S4Jsc4TNMlT0O7Cts4WgIC3ZBAQ2p1Mm9XgLbj+w==
 
 react-hook-form@^7.44.2:
   version "7.51.1"
