@@ -457,9 +457,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@mdxeditor/editor@^2.3.2":
-  version "2.20.3"
-  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.20.3.tgz#e61d20668cffffb08bab990fbfc95f4723d11c2d"
-  integrity sha512-oKhHuP70BYT9Wn+1YQwLY19oExvs/BVpjumP2NDLlRmPwvlK++udTTFBjUUyMAnYU7IC17zCN07mZG55HCUJ1g==
+  version "2.20.4"
+  resolved "https://registry.yarnpkg.com/@mdxeditor/editor/-/editor-2.20.4.tgz#69e268fa7f6b142ad3ae9f38caa8e3e23cf9778b"
+  integrity sha512-2IvCkgJgrMPtSkqsjtRy1VFkVxXWKnPcIOfX3/cWhc1+0c3M9PP768nEHEkrqQvSKf3tj5t+A4+hs1kSZ+ry/A==
   dependencies:
     "@codemirror/lang-markdown" "^6.2.3"
     "@codemirror/merge" "^6.4.0"
@@ -3208,9 +3208,9 @@ micromark-util-sanitize-uri@^2.0.0:
     micromark-util-symbol "^2.0.0"
 
 micromark-util-subtokenize@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/micromark-util-subtokenize/-/micromark-util-subtokenize-2.0.0.tgz#9f412442d77e0c5789ffdf42377fa8a2bcbdf581"
-  integrity sha512-vc93L1t+gpR3p8jxeVdaYlbV2jTYteDje19rNSS/H5dlhxUYll5Fy6vJ2cDwP8RnsXi818yGty1ayP55y3W6fg==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/micromark-util-subtokenize/-/micromark-util-subtokenize-2.0.1.tgz#76129c49ac65da6e479c09d0ec4b5f29ec6eace5"
+  integrity sha512-jZNtiFl/1aY73yS3UGQkutD0UbhTt68qnRpw2Pifmz5wV9h8gOVsN70v+Lq/f1rKaU/W8pxRe8y8Q9FX1AOe1Q==
   dependencies:
     devlop "^1.0.0"
     micromark-util-chunked "^2.0.0"
