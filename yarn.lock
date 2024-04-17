@@ -2,14 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.12.1", "@babel/runtime@^7.23.2", "@babel/runtime@^7.9.2":
-  version "7.24.1"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.1.tgz#431f9a794d173b53720e69a6464abc6f0e2a5c57"
-  integrity sha512-+BIznRzyqBf+2wCTxcKE3wDjfGeCoVE61KSHGpkzqrLi8qxqFwBeUFyId2cxkTmm55fzDGnm0+yCxaxygrLUnQ==
-  dependencies:
-    regenerator-runtime "^0.14.0"
-
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.8":
+"@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.8", "@babel/runtime@^7.23.2", "@babel/runtime@^7.9.2":
   version "7.24.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.4.tgz#de795accd698007a66ba44add6cc86542aff1edd"
   integrity sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==
@@ -519,21 +512,22 @@
     react "^18.2.0"
     react-dom "^18.2.0"
 
-"@measured/auto-frame-component@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@measured/auto-frame-component/-/auto-frame-component-0.1.1.tgz#d96e74e686933590361e8b5aa99d3447d624f16d"
-  integrity sha512-w/Ge4yxmODZm86fBnYkRlSKiVWqG8lIrE3COOY3PsjeEfXMloAei99wBgtM53gRgnqFWzd6PL/jJN9GGcA906w==
+"@measured/auto-frame-component@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@measured/auto-frame-component/-/auto-frame-component-0.1.7.tgz#9d863feb11e3c36d67bf8bf83f66a107573957f2"
+  integrity sha512-bVaIvGFtA4kuuBxaOgtPD7S5a91aBiTPZ+VYm+URLdhKUEuhIUtATPm74NnO7M14IGteJGSGzNf28O/blXSU4g==
   dependencies:
     object-hash "^3.0.0"
     react-frame-component "5.2.6"
 
-"@measured/dnd@16.6.0-canary.c7c88e8":
-  version "16.6.0-canary.c7c88e8"
-  resolved "https://registry.yarnpkg.com/@measured/dnd/-/dnd-16.6.0-canary.c7c88e8.tgz#8587e1ba86a55d6e720bbf98c04d3f17b3865553"
-  integrity sha512-RZGmVyBaB6kaUblBAMptwOKiWSSwfiLuN/Ai0er0oiWjgL/p5/LWwcHRsR2TGuyNL2od4EY+eAeG+9kc+F50NA==
+"@measured/dnd@16.6.0-canary.4cba1d1":
+  version "16.6.0-canary.4cba1d1"
+  resolved "https://registry.yarnpkg.com/@measured/dnd/-/dnd-16.6.0-canary.4cba1d1.tgz#47096fc962a9f69411e66e30d1c49b1ab4eb4e44"
+  integrity sha512-mMPQ5jElzQRZFR2HNyBn5WnPWpf+E464q1oT0qaI0dJtPqm7R/ssm5lcFDYaXApGvhZnrCRQWWT1ggoW80j0JA==
   dependencies:
     "@babel/runtime" "^7.23.2"
     css-box-model "^1.2.1"
+    lru-cache "^10.2.0"
     memoize-one "^6.0.0"
     raf-schd "^4.0.3"
     react-redux "^8.1.3"
@@ -541,15 +535,16 @@
     use-memo-one "^1.1.3"
 
 "@measured/puck@^0.14.0":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.14.1.tgz#360584688fad18888812a7b9d86e79cc23854159"
-  integrity sha512-O5zjGbpnVc2SfvAplSmPIM4UwQ/UKpmf8saKh8Jlcm+6/qeEQHFq4JaP9HsehkDgraeO1J/kVaD77EdPWsI9kQ==
+  version "0.14.2"
+  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.14.2.tgz#7f5ee6dc7e69de227a288a555d001e95232e4249"
+  integrity sha512-lhQoXxZppk1Fz8sjINI5ZmNHYZr5mKZlbyFU0mLpHe4ZJiBWKMBFvCTP9lPRl2MyYTp3cWtopfyJaK4/hQ3blw==
   dependencies:
-    "@measured/auto-frame-component" "0.1.1"
-    "@measured/dnd" "16.6.0-canary.c7c88e8"
+    "@measured/auto-frame-component" "0.1.7"
+    "@measured/dnd" "16.6.0-canary.4cba1d1"
     deep-diff "^1.0.2"
     react-hotkeys-hook "^4.4.1"
     react-spinners "^0.13.8"
+    ua-parser-js "^1.0.37"
     use-debounce "^9.0.4"
     uuid "^9.0.1"
 
@@ -2727,6 +2722,11 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lru-cache@^10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.0.tgz#0bd445ca57363465900f4d1f9bd8db343a4d95c3"
+  integrity sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==
+
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
@@ -3968,6 +3968,11 @@ typescript@^5.3.3:
   version "5.4.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
   integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+
+ua-parser-js@^1.0.37:
+  version "1.0.37"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.37.tgz#b5dc7b163a5c1f0c510b08446aed4da92c46373f"
+  integrity sha512-bhTyI94tZofjo+Dn8SN6Zv8nBDvyXTymAdM3LDI/0IboIUwTu1rEhW7v2TfiVsoYWgkQ4kOVqnI8APUFbIQIFQ==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
