@@ -539,15 +539,14 @@
     redux "^4.2.1"
     use-memo-one "^1.1.3"
 
-"@measured/puck@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.15.0.tgz#87eb26a5dd42f859df0803cd5f75b2cdb05a7816"
-  integrity sha512-sSB1TEwrZxqudXiv5d55ZUloQ4xG3oqDRaXQRwSuRep1itZmkFbmla2UGCdcpaKwvAMYUfXPQJWTrm7b1KNk8Q==
+"@measured/puck@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@measured/puck/-/puck-0.16.0.tgz#5caab5a0823b5ffb3f4cf05daf13a45be299c248"
+  integrity sha512-66wyo3zuCpNyBKXmxo11IBa2zpSZpYDuCMxyrn+RN1N9ZoNEtzriydcH3ANWuURPuYb+5er/4cSc+0nJaza02w==
   dependencies:
     "@measured/dnd" "16.6.0-canary.4cba1d1"
     deep-diff "^1.0.2"
     object-hash "^3.0.0"
-    react-frame-component "^5.2.6"
     react-hotkeys-hook "^4.4.1"
     ua-parser-js "^1.0.37"
     use-debounce "^9.0.4"
@@ -3513,11 +3512,6 @@ react-error-boundary@^3.1.4:
   integrity sha512-uM9uPzZJTF6wRQORmSrvOIgt4lJ9MC1sNgEOj2XGsDTRE4kmpWxg7ENK9EWNKJRMAOY9z0MuF4yIfl6gp4sotA==
   dependencies:
     "@babel/runtime" "^7.12.5"
-
-react-frame-component@^5.2.6:
-  version "5.2.7"
-  resolved "https://registry.yarnpkg.com/react-frame-component/-/react-frame-component-5.2.7.tgz#e31c0943be95fdf667c59d6d7fcf18c1dda4d4b2"
-  integrity sha512-ROjHtSLoSVYUBfTieazj/nL8jIX9rZFmHC0yXEU+dx6Y82OcBEGgU9o7VyHMrBFUN9FuQ849MtIPNNLsb4krbg==
 
 react-hook-form@^7.44.2:
   version "7.51.3"
